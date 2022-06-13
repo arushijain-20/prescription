@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="heading">Gaga Health</h1>
-      <BrowserRouter>
+      <BrowserRouter basename="/prescription">
         <Routes>
           <Route
             path="/"
