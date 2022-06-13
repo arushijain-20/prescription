@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/prescription/static/css/main.5565c2f6.css",
-    "main.js": "/prescription/static/js/main.68001717.js",
+    "main.js": "/prescription/static/js/main.120d126c.js",
     "static/js/787.7f7a7121.chunk.js": "/prescription/static/js/787.7f7a7121.chunk.js",
     "index.html": "/prescription/index.html",
     "main.5565c2f6.css.map": "/prescription/static/css/main.5565c2f6.css.map",
-    "main.68001717.js.map": "/prescription/static/js/main.68001717.js.map",
+    "main.120d126c.js.map": "/prescription/static/js/main.120d126c.js.map",
     "787.7f7a7121.chunk.js.map": "/prescription/static/js/787.7f7a7121.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5565c2f6.css",
-    "static/js/main.68001717.js"
+    "static/js/main.120d126c.js"
   ]
 }
