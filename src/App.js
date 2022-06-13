@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { Route, Routes } from "react-router";
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import Form from "./components/Form/Form";
+import Prescription from "./components/Prescription/Prescription";
 
 function App() {
+  const [inputs, setInputs] = useState([
+    {
+      name: "",
+      age: "",
+      gender: "",
+      date: "",
+      address:"",
+      mednotes: "",
+      medDetails: "",
+    },
+  ]);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="heading">Gaga Health</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={<Form inputs={inputs} setInputs={setInputs} />}
+          />
+          <Route
+            path="/prescription"
+            element={<Prescription data={inputs} />}
+          />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

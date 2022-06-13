@@ -1,0 +1,96 @@
+.prescription{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-weight: 300;
+}
+h1 span{
+    font-size: 20px;
+}
+.address{
+    text-align: center;
+}
+.content{
+    font-size: large;
+   
+}
+.row1{
+    text-align: right;
+}
+.row{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.content input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    color: #968b84 ;
+    margin: 20px;
+    font-size: 17px;
+    min-width: 300px;
+   
+  }
+
+.content label{
+   padding: 1.5%;
+   font-weight: 300;
+}
+.content label span{
+    
+    color: #968b84 ;
+    text-decoration: underline;
+    padding: 20px;
+}
+.address-row{
+    width: 500px;
+}
+
+.rx{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    padding: 2%;
+}
+.rx span{
+    font-size: 30px;
+}
+
+.medPrescription{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    min-height: 500px;
+}
+.medPrescription h2{
+    font-weight: 300;
+    text-decoration: underline;
+    margin: 5%;
+}
+
+.footer{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    color: #968b84 ;
+    margin: 20px;
+    font-size: 17px;
+    min-width: 300px;
+}
+
+.footer p{
+    text-align: center;
+}
